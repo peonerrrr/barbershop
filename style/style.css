@@ -418,6 +418,9 @@ b{
 .close-btn::before{
 	transform: rotate(-45deg);
 }
+.login-form {
+	display: none;
+}
 .login-form h2{
 	font-size: 30px;
 	margin-left: 80px;
@@ -503,4 +506,15 @@ b{
 }
 .checkbox-indicator:before {
 	transform: rotate(-45deg);
+}
+.login-form-bg {
+	background-color: #000;
+
+	opacity: 0.4;
+}
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
 }
